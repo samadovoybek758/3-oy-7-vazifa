@@ -1,1 +1,30 @@
-/*# sourceMappingURL=style.css.map */
+.continer {
+  max-width: 1142px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  padding: 26px 0 26px 0;
+  font-family: "poppins";
+}
+header .header__continer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(60, 230, 54);
+}
+header .header__continer ul {
+  display: flex;
+}
+
+.yourlogo a {
+  font-size: 31px;
+  color: #000;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: "poppins";
+}
+.yourlogo a .logo {
+  font-weight: 800;
+}/*# sourceMappingURL=style.css.map */

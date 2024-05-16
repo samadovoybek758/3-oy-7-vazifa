@@ -1,0 +1,27 @@
+header {
+    padding: 26px 0 26px 0;
+    font-family: "poppins";
+  
+    .header__continer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(60, 230, 54);
+  
+      ul {
+        display: flex;
+      }
+    }
+  }
+  .yourlogo a {
+    font-size: 31px;
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: "poppins";
+  
+    .logo {
+      font-weight: 800;
+    }
+  }
+  
