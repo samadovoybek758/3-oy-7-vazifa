@@ -1,0 +1,145 @@
+.about{
+    padding: 135px 0 96px 0;
+  
+    .about__continer{
+        display: flex;
+        justify-content: space-between;
+        gap: 90px;
+    }
+}
+
+.about__continer--video{
+    position: relative;
+    margin-bottom: 109px;
+    
+
+
+    .turtburchak{
+        width: 354px;
+        height: 436px;
+        background-color: #2AE85F;
+        position: absolute;
+        top: -15px;
+        left: -15px;
+        z-index: -10;
+    }
+
+    .play{
+        width: 139px;
+        height: 139px;
+        border-radius: 50%;
+        padding: 12px;
+        display: f;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        border: 2px solid rgb(255, 255, 255, 0.15);
+        top: 150px;
+        left: 200px;
+
+        .play__2{
+            background-color: white;
+            width: 115px;
+            height: 115px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+
+    .multi{
+        width: 121px;
+        background-color: #3646D9;
+        position: absolute;
+        border-radius: 25px;
+        top: 240px;
+        left: 500px;
+        padding: 19px 20px 13px 28px;
+        color: white;
+        font-family: "oswald";
+        font-weight: 700;
+        box-shadow: 0px 4px 31px #3646D963;
+
+
+        h2{
+            font-size: 34px;
+            
+        }
+
+        p{
+            font-size: 17px;
+            
+        }
+        
+    }
+}
+.about__ung{
+    font-family: "poppins";
+
+
+    h3{
+        font-size: 19px;
+        font-weight: 700;
+        color: #3EA83B;
+    }
+    h1{
+        font-size: 46px;
+        font-weight: 700;
+        color: #363739;
+        margin-bottom: 37px;
+    }
+
+    P{
+        font-size: 16px;
+        font-weight: 400;
+        color: #363739;
+        margin-bottom: 20px;
+    }
+
+    button{
+        @extend %button-primary
+    }
+}
+
+
+
+.about__pas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .aylana{
+        width: 132px;
+        height: 132px;
+        border-radius: 50%;
+        background-color: #2AE85F;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .abaout__pas-1{
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        
+
+        h4{
+            font-size: 21px;
+            font-weight: 700;
+            color: #363739;
+            width: 277px;
+            margin-bottom: 17px;
+            font-family: "poppins";
+        }
+        p{
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 23px;
+            font-family: "lato";
+            width: 351px;
+        }
+    }
+
+}
