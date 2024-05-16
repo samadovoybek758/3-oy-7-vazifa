@@ -1,0 +1,40 @@
+
+.hero{
+    background: url("../images/Group\ 15\ \(3\).jpg") no-repeat;
+    font-family: "oswald";
+
+
+    .hero__continer{
+        padding:201px 0 159px 0;
+        
+
+        h2{
+            font-size: 45px;
+            font-weight: 500;
+            line-height: 54px;
+            color: #363739;
+            width: 390px;
+            
+        }
+        h1{
+            font-size: 122px;
+            font-weight: 700;
+            color: #3EA83B;
+            margin-top: -30px;
+        }
+        p{
+            font-size: 23px;
+            font-weight: 400;
+            line-height: 31px;
+            color: #8C8C8C;
+            width: 370px;
+            margin-bottom: 24px;
+        }
+        button{
+            @extend %button-primary
+        }
+    }
+}
+.Greener{
+    color: #3EA83B;
+}

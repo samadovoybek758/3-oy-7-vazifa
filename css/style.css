@@ -1,21 +1,18 @@
-.continer {
-  max-width: 1142px;
-  width: 100%;
-  margin: 0 auto;
-}
-
 header {
   padding: 26px 0 26px 0;
   font-family: "poppins";
 }
 header .header__continer {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  background-color: rgb(60, 230, 54);
 }
 header .header__continer ul {
   display: flex;
+  gap: 42px;
+  list-style-type: none;
+  align-items: center;
+  margin-left: 200px;
 }
 
 .yourlogo a {
@@ -27,4 +24,74 @@ header .header__continer ul {
 }
 .yourlogo a .logo {
   font-weight: 800;
+}
+
+.header__list a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "poppins";
+  color: #000000;
+}
+
+.btn {
+  color: white;
+}
+
+.hero {
+  background: url("../images/Group 15 (3).jpg") no-repeat;
+  font-family: "oswald";
+}
+.hero .hero__continer {
+  padding: 201px 0 159px 0;
+}
+.hero .hero__continer h2 {
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 54px;
+  color: #363739;
+  width: 390px;
+}
+.hero .hero__continer h1 {
+  font-size: 122px;
+  font-weight: 700;
+  color: #3EA83B;
+  margin-top: -30px;
+}
+.hero .hero__continer p {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 31px;
+  color: #8C8C8C;
+  width: 370px;
+  margin-bottom: 24px;
+}
+.Greener {
+  color: #3EA83B;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.continer {
+  max-width: 1142px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn, .hero .hero__continer button {
+  padding: 15px 35px;
+  font-family: "poppins";
+  font-weight: 700;
+  background-color: #3EA83B;
+  border-radius: 43px;
+  cursor: pointer;
+  color: white;
+  border: none;
+}
+.btn:hover, .hero .hero__continer button:hover {
+  background-color: #1a6d17;
 }/*# sourceMappingURL=style.css.map */

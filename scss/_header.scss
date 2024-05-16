@@ -4,12 +4,15 @@ header {
   
     .header__continer {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
       align-items: center;
-      background-color: rgb(60, 230, 54);
   
-      ul {
+      ul{
         display: flex;
+        gap: 42px;
+        list-style-type: none;
+        align-items: center;
+        margin-left: 200px;
       }
     }
   }
@@ -24,4 +27,18 @@ header {
       font-weight: 800;
     }
   }
-  
+
+
+.header__list a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'poppins';
+    color: #000000
+    
+}
+ 
+.btn{
+    @extend %button-primary;
+    color: white;
+}

@@ -1,12 +1,31 @@
-// @import "../scss/header";
-// @import "../scss/hero";
-// @import "../scss/fonts";
+@import "./header";
+@import "./hero";
 
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .continer{
     max-width: 1142px;
     width: 100%;
     margin: 0 auto;
 }
 
-@import "./header"
+%button-primary{
+    padding: 15px 35px;
+    
+    font-family: 'poppins';
+    font-weight: 700;
+    background-color: #3EA83B;
+    border-radius: 43px;
+    cursor: pointer;
+    color: white;
+    border: none;
+
+    &:hover{
+    background-color: #1a6d17;
+   
+    }
+}
+
