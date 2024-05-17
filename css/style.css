@@ -33,6 +33,9 @@ header .header__continer ul {
   font-family: "poppins";
   color: #000000;
 }
+.header__list a:hover {
+  color: darkgrey;
+}
 
 .btn {
   color: white;
@@ -116,17 +119,8 @@ header .header__continer ul {
   justify-content: center;
 }
 .about__continer--video .multi {
-  width: 121px;
-  background-color: #3646D9;
-  position: absolute;
-  border-radius: 25px;
   top: 240px;
   left: 500px;
-  padding: 19px 20px 13px 28px;
-  color: white;
-  font-family: "oswald";
-  font-weight: 700;
-  box-shadow: 0px 4px 31px rgba(54, 70, 217, 0.3882352941);
 }
 .about__continer--video .multi h2 {
   font-size: 34px;
@@ -238,6 +232,55 @@ header .header__continer ul {
   font-weight: 700;
 }
 
+.mission__continer {
+  padding: 131px 0 137px 0;
+  display: flex;
+  gap: 135px;
+  background: url("../images/Rectangle 19 (1).png") no-repeat 2% 0%;
+}
+.mission__continer span {
+  font-size: 19px;
+  font-weight: 700;
+  color: #3EA83B;
+  font-family: "poppins";
+}
+.mission__continer h1 {
+  font-size: 46px;
+  font-weight: 700;
+  color: #363739;
+  width: 539px;
+  margin: 28px 0 57px 0;
+}
+.mission__continer ul {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.mission__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+}
+.mission__item p {
+  font-size: 16px;
+  font-family: "lato";
+  font-weight: 400;
+  color: #363739;
+  line-height: 23px;
+  width: 566px;
+}
+
+.mission__continer-img {
+  position: relative;
+  margin-top: -90px;
+}
+.mission__continer-img .tool {
+  position: absolute;
+  top: 250px;
+  left: 400px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -262,4 +305,16 @@ header .header__continer ul {
 }
 .btn:hover, .hero .hero__continer button:hover, .about__ung button:hover {
   background-color: #1a6d17;
+}
+
+.about__continer--video .multi, .mission__continer-img .tool {
+  width: 121px;
+  background-color: #3646D9;
+  position: absolute;
+  border-radius: 25px;
+  padding: 20px 20px 20px 28px;
+  color: white;
+  font-family: "oswald";
+  font-weight: 700;
+  box-shadow: 0px 4px 31px rgba(54, 70, 217, 0.3882352941);
 }/*# sourceMappingURL=style.css.map */

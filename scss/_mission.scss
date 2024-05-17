@@ -1,0 +1,69 @@
+.mission__continer{
+    padding: 131px 0 137px 0;
+    display: flex;
+    gap: 135px;
+    background: url("../images/Rectangle\ 19\ \(1\).png") no-repeat 2% 0% ;
+   
+   
+    
+       
+
+    span{
+        font-size: 19px;
+        font-weight: 700;
+        color: #3EA83B;
+        font-family: "poppins";
+    }
+    h1{
+        font-size: 46px;
+        font-weight: 700;
+        color: #363739;
+        width: 539px;
+        margin: 28px 0 57px 0;
+    }
+
+    ul{
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+    
+}
+
+.mission__item{
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+
+
+    p{
+        font-size: 16px;
+        font-family: "lato";
+        font-weight: 400;
+        color: #363739;
+        line-height: 23px;
+        width: 566px;
+    }
+}
+
+
+
+.mission__continer-img{
+    position: relative;
+    margin-top: -90px;
+   
+    
+    
+
+    .tool{
+        @extend %multi;
+        position: absolute;
+        top: 250px;
+        left: 400px;
+    }
+}
+.mission{
+    
+    
+    
+}

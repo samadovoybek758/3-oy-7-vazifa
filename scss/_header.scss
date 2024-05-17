@@ -34,7 +34,11 @@ header {
     font-size: 18px;
     font-weight: 400;
     font-family: 'poppins';
-    color: #000000
+    color: #000000;
+
+    &:hover{
+      color: darkgrey
+    }
     
 }
  

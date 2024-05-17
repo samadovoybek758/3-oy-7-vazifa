@@ -2,6 +2,8 @@
 @import "./hero";
 @import "./about";
 @import "./features";
+@import "./mission";
+
 *{
     margin: 0;
     padding: 0;
@@ -29,4 +31,15 @@
    
     }
 }
+%multi{
+     width: 121px;
+     background-color: #3646D9;
+     position: absolute;
+     border-radius: 25px;
+     padding: 20px 20px 20px 28px;
+     color: white;
+     font-family: "oswald";
+     font-weight: 700;
+     box-shadow: 0px 4px 31px #3646D963;
 
+}
