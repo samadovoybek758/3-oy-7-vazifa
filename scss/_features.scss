@@ -1,0 +1,57 @@
+.features{
+    max-width: 1979px;
+    margin: 0 auto;
+    background: url("../images/Rectangle\ 14\ \(1\).png") no-repeat 100% 0,
+    url("../images/Rectangle\ 25\ \(3\).png")no-repeat 60% 35%,
+    url("../images/Rectangle\ 24\ \(3\).png") no-repeat 89% 35%,
+    #3646D9;
+
+    .features__continer{
+        font-family: "poppins";
+        color: white;
+        padding: 116px 0 108px 0;
+        display: flex;
+        align-items: center;
+
+
+        span{
+            font-size: 19px;
+            font-weight: 700;
+        }
+        h1{
+            font-size: 46px;
+            line-height: 53px;
+            font-weight: 700;
+            width: 506px;
+            margin-top: 12px;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 29px;
+            width: 478px;
+            margin-top: 20px;
+            font-family: "lato";
+        }
+
+        ul{
+            display: flex;
+           
+            flex-direction: column;
+            gap: 19px;
+            margin-top: 30px;
+        }
+    }
+}
+
+.featur__item{
+    display: flex;
+    align-items: center;
+    gap: 19px;
+
+    span{
+        font-size: 20px;
+        font-weight: 700;
+
+    }
+}
